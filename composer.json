@@ -1,0 +1,36 @@
+{
+  "name": "mustafaaktas0/yii2-takim-modul",
+  "description": "Yii2 Takim Modulu",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mustafaaktas0",
+      "email": "180201051@kocaeli.edu.tr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mustafaaktas0\\futbolcu\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "mustafaaktas0\\futbolcu\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
