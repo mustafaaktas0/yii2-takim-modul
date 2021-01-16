@@ -16,12 +16,12 @@ ssh veya vagrant ssh ile vagrant üzerinde yii projenizin ana dizinine gidiniz.(
 
  komutu ile packagist üzerinden modül kurulumunu gerçekleştiriniz.
     
-Daha sonrasında yii projenizin ana dizininde backend\config\main.php dosyasını düzenlemek için açınız. Aşağıda gösterildiği şekilde düzenlemeyi yapınız.
+Daha sonrasında yii projenizin ana dizininde frontend\config\main.php dosyasını düzenlemek için açınız. Aşağıda gösterildiği şekilde düzenlemeyi yapınız.
 
 ```
     'modules' => [
         'futbolcu' => [
-            'class' => 'frontend\modules\futbolcu\Futbolcu',
+            'class' => 'mustafaaktas0\futbolcu\Futbolcu',
         ],
     ],
 
